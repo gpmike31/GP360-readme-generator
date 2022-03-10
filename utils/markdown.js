@@ -1,5 +1,4 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
-
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {}
 
@@ -11,43 +10,42 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title} ![](https://img.shields.io/badge/license-${data.license}-blue)
-        ## Description
-        ${data.description}
-        
-        ## Table of Contents
-            - [Installation](#installation)
-            - [Usage](#usage)
-            - [Credits](#credits)
-            - [License](#license)
-        
-        ## Installation
-            ${data.installation}
+  return `# ${data.title}
+    ![](https://img.shields.io/badge/license-${data.license}-blue)
+    ## Description
+    ${data.description}
 
-        ## Usage
-            ${data.usage}
+    ## Table of Contents
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Credits](#credits)
+    - [License](#license)
 
-        ## Credits
+    ## Installation
+    ${data.installation}
 
-            ${data.credits}
-        ## Features
-            ${data.features}
+    ## Usage
+    ${data.usage}
 
-        ## How to Contribute
-            ${data.contribute}
+    ## Credits
+    ${data.credits}
 
-        ## Tests
-            ${data.tests}
+    ## Features
+    ${data.features}
 
-        ## Questions
-            Please use the information below to contact me if you have any further questions, thank you.
+    ## How to Contribute
+    ${data.contribute}
 
-            https://github.com/${data.github}
-            ${data.email}
-    `
+    ## Tests
+    ${data.tests}
+
+    ## Questions
+    Please feel free to use the information below to reach out to me if you have any other questions.
+    https://github.com/${data.github}
+    ${data.email}
+    `;
 }
 
 module.exports = generateMarkdown;
