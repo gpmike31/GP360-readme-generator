@@ -1,8 +1,8 @@
 
-# blah
-![license badge](https://img.shields.io/badge/license-GNU-blue)
+# Gerald Pegg GP360 Readme Generator
+![license badge](https://img.shields.io/badge/license-CreativeCommons-blue)
 ## Description
-blah
+Read me Generator
 
 ## Table of Contents
 - [Installation](#installation)
@@ -11,25 +11,25 @@ blah
 - [License](#license)
 
 ## Installation
-blah
+javascript, node
 
 ## Usage
-blah
+Professional Readme Generator
 
 ## Credits
-blah
+N/A
 
 ## Features
-blah
+N/A
 
 ## How to Contribute
-blah
+N/A
 
 ## Tests
-blah
+N/A
 
 ## Questions
 Please feel free to use the information below to reach out to me if you have any other questions.
-https://github.com/blah
-blah
+https://github.com/gpmike31
+gpmike3105@gmail.com
     
